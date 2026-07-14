@@ -1,0 +1,36 @@
+# Android SDK configuration
+local.properties
+
+# Gradle and Android build output
+.gradle/
+build/
+**/build/
+*.apk
+*.aab
+
+# Android Studio and IntelliJ IDEA
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing material and local secrets
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# JVM crash logs
+hs_err_pid*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Magisk database backups (local device state)
+*.db
+
+# Downloaded LSPosed artifacts
+zygisk_lsposed-*.zip
+lsposed-manager-extract/
