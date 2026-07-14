@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Telephony Country Hook</string>
+    <string name="settings_title">Hook 测试配置</string>
+    <string name="settings_summary">保存后请强制停止并重新打开已在 LSPosed 中选定的目标应用，新的模拟值才会生效。</string>
+    <string name="section_region">地区</string>
+    <string name="section_wifi_identity">Wi-Fi 身份</string>
+    <string name="section_wifi_scan">Wi-Fi 扫描结果</string>
+    <string name="country_iso">国家码（ISO 3166-1 alpha-2）</string>
+    <string name="locale_tag">默认区域（BCP-47，例如 en-IN）</string>
+    <string name="wifi_ssid">当前 Wi-Fi SSID</string>
+    <string name="wifi_bssid">当前 Wi-Fi BSSID</string>
+    <string name="wifi_ipv4">当前 Wi-Fi IPv4 地址</string>
+    <string name="wifi_enabled">向应用报告 Wi-Fi 已启用</string>
+    <string name="scan_succeeds">向应用报告 Wi-Fi 扫描成功</string>
+    <string name="scan_ssid">扫描热点 SSID</string>
+    <string name="scan_bssid">扫描热点 BSSID</string>
+    <string name="scan_rssi">扫描热点 RSSI（dBm）</string>
+    <string name="scan_frequency">扫描热点频率（MHz）</string>
+    <string name="scan_capabilities">扫描热点能力字符串</string>
+    <string name="save">保存配置</string>
+    <string name="restore_defaults">恢复默认值</string>
+    <string name="saved_message">配置已保存。请强制停止并重新打开目标应用后再验证。</string>
+    <string name="defaults_restored_message">已恢复默认值。请重启目标应用后再验证。</string>
+</resources>

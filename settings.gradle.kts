@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "TelephonyCountryXposed"
 include(":app")
+include(":xposed-api-stubs")

@@ -4,7 +4,24 @@
         android:extractNativeLibs="false"
         android:hasCode="true"
         android:label="Telephony Country Hook"
-        android:supportsRtl="true">
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TelephonyCountryHook">
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".ConfigProvider"
+            android:authorities="com.flashy.test.telephonycountry.config"
+            android:exported="true"
+            android:grantUriPermissions="false" />
+
         <meta-data
             android:name="xposedmodule"
             android:value="true" />
